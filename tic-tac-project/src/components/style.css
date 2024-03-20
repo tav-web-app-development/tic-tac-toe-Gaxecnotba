@@ -1,0 +1,22 @@
+.square {
+  background: white;
+  outline: 0.5px solid #999;
+  border: 0.5px solid #999;
+  font-weight: bold;
+  font-size: 24px;
+}
+#board {
+  display: grid;
+  grid-template-columns: repeat(3, 34px);
+  grid-template-rows: repeat(3, 34px);
+  gap: 3px;
+}
+.game-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#restart-button {
+  margin-top: 1rem;
+  width: 300%;
+}

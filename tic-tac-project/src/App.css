@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  background-color: wheat;
+}
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+#h1 {
+  margin-top: 0;
+  font-size: 52px;
+  justify-content: center;
+}
+.game-container {
+  text-align: center;
+  margin-top: 50px;
+}
